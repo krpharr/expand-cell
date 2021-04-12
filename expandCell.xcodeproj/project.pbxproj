@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7075BCBA2624C2F000B0D787 /* IMG_9527.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 7075BCB92624C2F000B0D787 /* IMG_9527.PNG */; };
 		C3846B3526228C2E00E77826 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3846B3426228C2E00E77826 /* AppDelegate.swift */; };
 		C3846B3726228C2E00E77826 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3846B3626228C2E00E77826 /* SceneDelegate.swift */; };
 		C3846B3C26228C2E00E77826 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3846B3A26228C2E00E77826 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7075BCB92624C2F000B0D787 /* IMG_9527.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_9527.PNG; sourceTree = "<group>"; };
 		C3846B3126228C2E00E77826 /* expandCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = expandCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3846B3426228C2E00E77826 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3846B3626228C2E00E77826 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				C3846B4A26228CD200E77826 /* TableViewController.swift */,
 				C3846B542622A1D600E77826 /* DetailView.xib */,
 				C3846B572622A3BD00E77826 /* DetailView.swift */,
+				7075BCB92624C2F000B0D787 /* IMG_9527.PNG */,
 				C3846B3D26228C3200E77826 /* Assets.xcassets */,
 				C3846B3F26228C3200E77826 /* LaunchScreen.storyboard */,
 				C3846B4226228C3200E77826 /* Info.plist */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3846B4126228C3200E77826 /* LaunchScreen.storyboard in Resources */,
+				7075BCBA2624C2F000B0D787 /* IMG_9527.PNG in Resources */,
 				C3846B552622A1D600E77826 /* DetailView.xib in Resources */,
 				C3846B3E26228C3200E77826 /* Assets.xcassets in Resources */,
 				C3846B3C26228C2E00E77826 /* Main.storyboard in Resources */,

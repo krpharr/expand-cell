@@ -59,6 +59,8 @@ class TableViewController: UITableViewController {
             let n = notes[indexPath.row]
             cell.noteTitleLabel.text = n.title
             let dateFormatter = DateFormatter()
+            cell.note = n
+            cell.owner = self
             dateFormatter.dateFormat = "E, d MMM yyyy h:mm:ss a"
             cell.noteModificationTimeLabel.text = dateFormatter.string(from: n.createdAt)
             cell.seenImageView.image = n.seen ? cell.seenImage : cell.unseenImage
@@ -71,10 +73,10 @@ class TableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         if selectedIndex == indexPath.row && self.isCollasped {
 //            self.isCollasped.toggle()
-            return 150
+            return 166
         }else {
 //            self.isCollasped.toggle()
-            return 85
+            return 100
         }
 
     }
@@ -88,10 +90,10 @@ class TableViewController: UITableViewController {
             self.isCollasped = true
         }
         self.selectedIndex = indexPath.row
-        if let cell = tableView.dequeueReusableCell(withIdentifier: "listNotesTableViewCell", for: indexPath) as? ListNotesTableViewCell {
-            cell.note = notes[indexPath.row]
-            cell.owner = self
-        }
+//        if let cell = tableView.dequeueReusableCell(withIdentifier: "listNotesTableViewCell", for: indexPath) as? ListNotesTableViewCell {
+//            cell.note = notes[indexPath.row]
+//            cell.owner = self
+//        }
         self.tableView.reloadRows(at: [indexPath], with: .automatic)
         
     }
